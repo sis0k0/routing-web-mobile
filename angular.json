@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "routing-app"
+  "defaultProject": "routing-app",
+  "cli": {
+    "defaultCollection": "@nativescript/schematics"
+  }
 }
