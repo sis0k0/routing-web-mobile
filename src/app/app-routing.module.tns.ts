@@ -2,8 +2,11 @@ import { NgModule } from '@angular/core';
 import { NativeScriptRouterModule } from 'nativescript-angular/router';
 import { Routes } from '@angular/router';
 
+import { MobileHomeComponent } from './mobile-home/mobile-home.component.tns';
+
 const routes: Routes = [
-  { path: '', redirectTo: '/players', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: MobileHomeComponent },
 ];
 
 @NgModule({
