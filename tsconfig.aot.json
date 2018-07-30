@@ -16,7 +16,7 @@
     "**/*.tns.ts",
     "**/*.android.ts",
     "**/*.ios.ts",
-    "src/app/home/home.component.web.ts",
+    "src/app/home/home.component.ts",
     "**/*.spec.ts"
   ]
 }
